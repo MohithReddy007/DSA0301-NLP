@@ -1,13 +1,3 @@
-"""
-Experiment 11: Top-Down Parser
-Course: Natural Language Processing
-
-Description:
-This program demonstrates top-down parser.
-
-Author: Student
-"""
-
 grammar = {
     "S": [["NP", "VP"]],
     "NP": [["Det", "N"]],
