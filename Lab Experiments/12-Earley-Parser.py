@@ -1,13 +1,3 @@
-"""
-Experiment 12: Earley Parser
-Course: Natural Language Processing
-
-Description:
-This program demonstrates earley parser.
-
-Author: Student
-"""
-
 grammar = {
     "S": [["NP", "VP"]],
     "NP": [["Det", "N"]],
