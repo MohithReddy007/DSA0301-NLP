@@ -1,13 +1,3 @@
-"""
-Experiment 7: Part-of-Speech Tagging
-Course: Natural Language Processing
-
-Description:
-This program demonstrates part-of-speech tagging.
-
-Author: Student
-"""
-
 import nltk
 
 nltk.download("punkt", quiet=True)
