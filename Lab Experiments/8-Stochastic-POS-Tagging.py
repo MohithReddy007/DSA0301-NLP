@@ -1,13 +1,3 @@
-"""
-Experiment 8: Stochastic POS Tagging
-Course: Natural Language Processing
-
-Description:
-This program demonstrates stochastic pos tagging.
-
-Author: Student
-"""
-
 from collections import Counter, defaultdict
 
 training = [
