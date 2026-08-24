@@ -1,13 +1,3 @@
-"""
-Experiment 3: Morphological Analysis using NLTK
-Course: Natural Language Processing
-
-Description:
-This program demonstrates morphological analysis using nltk.
-
-Author: Student
-"""
-
 import nltk
 from nltk.stem import WordNetLemmatizer
 
