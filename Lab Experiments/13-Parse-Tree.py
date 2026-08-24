@@ -1,13 +1,3 @@
-"""
-Experiment 13: CFG Parse Tree Generation
-Course: Natural Language Processing
-
-Description:
-This program demonstrates cfg parse tree generation.
-
-Author: Student
-"""
-
 import nltk
 from nltk import CFG
 from nltk.parse import ChartParser
