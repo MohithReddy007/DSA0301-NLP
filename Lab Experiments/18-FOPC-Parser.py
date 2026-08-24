@@ -1,13 +1,3 @@
-"""
-Experiment 18: First-Order Predicate Calculus Parser
-Course: Natural Language Processing
-
-Description:
-This program demonstrates first-order predicate calculus parser.
-
-Author: Student
-"""
-
 import re
 
 def parse_fopc(expression):
