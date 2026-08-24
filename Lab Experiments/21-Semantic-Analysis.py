@@ -1,13 +1,3 @@
-"""
-Experiment 21: Syntax-Driven Semantic Analysis
-Course: Natural Language Processing
-
-Description:
-This program demonstrates syntax-driven semantic analysis.
-
-Author: Student
-"""
-
 import nltk
 from nltk import CFG
 from nltk.parse import ChartParser
