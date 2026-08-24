@@ -1,13 +1,3 @@
-"""
-Experiment 9: Rule-Based POS Tagging
-Course: Natural Language Processing
-
-Description:
-This program demonstrates rule-based pos tagging.
-
-Author: Student
-"""
-
 import re
 
 patterns = [
