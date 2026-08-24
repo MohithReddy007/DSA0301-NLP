@@ -1,13 +1,3 @@
-"""
-Experiment 2: Finite State Automaton
-Course: Natural Language Processing
-
-Description:
-This program demonstrates finite state automaton.
-
-Author: Student
-"""
-
 def accepts(text):
     state = 0
     for ch in text:
