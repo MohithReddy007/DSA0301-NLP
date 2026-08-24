@@ -1,13 +1,3 @@
-"""
-Experiment 22: Reference Resolution
-Course: Natural Language Processing
-
-Description:
-This program demonstrates reference resolution.
-
-Author: Student
-"""
-
 import re
 
 text = "Ravi went to the library. He borrowed a book. Ravi read it at home."
