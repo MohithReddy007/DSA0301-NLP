@@ -1,17 +1,3 @@
-"""
-Experiment 25: GPT-Based Text Generation
-Course: Natural Language Processing
-
-Description:
-This program demonstrates gpt-based text generation.
-
-Author: Student
-"""
-
-# Set the OPENAI_API_KEY environment variable before running.
-# Example on Windows PowerShell:
-#   $env:OPENAI_API_KEY="your_api_key"
-
 from openai import OpenAI
 
 client = OpenAI()
