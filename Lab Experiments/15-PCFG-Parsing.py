@@ -1,13 +1,3 @@
-"""
-Experiment 15: Probabilistic CFG Parsing
-Course: Natural Language Processing
-
-Description:
-This program demonstrates probabilistic cfg parsing.
-
-Author: Student
-"""
-
 import nltk
 from nltk import PCFG
 from nltk.parse import ViterbiParser
