@@ -1,13 +1,3 @@
-"""
-Experiment 17: WordNet Synset Analysis
-Course: Natural Language Processing
-
-Description:
-This program demonstrates wordnet synset analysis.
-
-Author: Student
-"""
-
 import nltk
 from nltk.corpus import wordnet as wn
 
