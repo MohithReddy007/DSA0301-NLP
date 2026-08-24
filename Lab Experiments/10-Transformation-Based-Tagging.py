@@ -1,13 +1,3 @@
-"""
-Experiment 10: Transformation-Based Tagging
-Course: Natural Language Processing
-
-Description:
-This program demonstrates transformation-based tagging.
-
-Author: Student
-"""
-
 words = ["I", "book", "a", "book"]
 
 tags = ["NN"] * len(words)
