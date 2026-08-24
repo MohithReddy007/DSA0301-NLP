@@ -1,13 +1,3 @@
-"""
-Experiment 23: Text Coherence Evaluation
-Course: Natural Language Processing
-
-Description:
-This program demonstrates text coherence evaluation.
-
-Author: Student
-"""
-
 import re
 from collections import Counter
 
