@@ -1,13 +1,3 @@
-"""
-Experiment 5: Porter Stemmer
-Course: Natural Language Processing
-
-Description:
-This program demonstrates porter stemmer.
-
-Author: Student
-"""
-
 from nltk.stem import PorterStemmer
 
 stemmer = PorterStemmer()
