@@ -1,13 +1,3 @@
-"""
-Experiment 4: Finite-State Morphological Parser
-Course: Natural Language Processing
-
-Description:
-This program demonstrates finite-state morphological parser.
-
-Author: Student
-"""
-
 def plural(noun):
     if noun.endswith(("s", "x", "z", "ch", "sh")):
         return noun + "es"
