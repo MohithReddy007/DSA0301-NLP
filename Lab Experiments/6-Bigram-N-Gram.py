@@ -1,13 +1,3 @@
-"""
-Experiment 6: Bigram N-Gram Text Generation
-Course: Natural Language Processing
-
-Description:
-This program demonstrates bigram n-gram text generation.
-
-Author: Student
-"""
-
 from collections import defaultdict
 import random
 
