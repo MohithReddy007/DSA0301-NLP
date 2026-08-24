@@ -1,13 +1,3 @@
-"""
-Experiment 14: Subject-Verb Agreement Checking
-Course: Natural Language Processing
-
-Description:
-This program demonstrates subject-verb agreement checking.
-
-Author: Student
-"""
-
 def check_agreement(sentence):
     words = sentence.lower().replace(".", "").split()
 
