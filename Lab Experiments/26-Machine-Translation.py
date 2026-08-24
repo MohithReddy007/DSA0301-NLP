@@ -1,13 +1,3 @@
-"""
-Experiment 26: English-to-French Machine Translation
-Course: Natural Language Processing
-
-Description:
-This program demonstrates english-to-french machine translation.
-
-Author: Student
-"""
-
 from transformers import pipeline
 
 translator = pipeline(
