@@ -1,13 +1,3 @@
-"""
-Experiment 24: Dialog Act Recognition
-Course: Natural Language Processing
-
-Description:
-This program demonstrates dialog act recognition.
-
-Author: Student
-"""
-
 def dialog_act(sentence):
     s = sentence.lower().strip()
 
