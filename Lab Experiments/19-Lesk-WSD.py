@@ -1,13 +1,3 @@
-"""
-Experiment 19: Word Sense Disambiguation using Lesk
-Course: Natural Language Processing
-
-Description:
-This program demonstrates word sense disambiguation using lesk.
-
-Author: Student
-"""
-
 import nltk
 from nltk.wsd import lesk
 from nltk.tokenize import word_tokenize
