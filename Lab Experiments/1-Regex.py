@@ -1,13 +1,3 @@
-"""
-Experiment 1: Regular Expression Pattern Matching
-Course: Natural Language Processing
-
-Description:
-This program demonstrates regular expression pattern matching.
-
-Author: Student
-"""
-
 import re
 
 text = "My email is student@example.com and my phone is 9876543210."
