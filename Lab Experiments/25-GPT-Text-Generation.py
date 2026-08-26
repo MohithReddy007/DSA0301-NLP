@@ -1,12 +1,21 @@
-from openai import OpenAI
+from google import genai
 
-client = OpenAI()
+# Enter your Gemini API key
+client = genai.Client(api_key="AQ.Ab8RN6IOKrgs4zbfIGmb4qa5fRTNmbAzPB2W89DWTZvbNzIi6Q")
 
-prompt = "Explain natural language processing in simple words."
+prompt = "Write a short paragraph about Artificial Intelligence."
 
-response = client.responses.create(
-    model="gpt-5-mini",
-    input=prompt
-)
+try:
+    response = client.models.generate_content(
+        model="gemini-3.5-flash-lite",
+        contents=prompt
+    )
 
-print(response.output_text)
+    print("Prompt:")
+    print(prompt)
+
+    print("\nGenerated Text:")
+    print(response.text)
+
+except Exception as e:
+    print("Error:", e)
